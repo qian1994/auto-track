@@ -1,22 +1,32 @@
-.App {
-  text-align: center;
+html, body #app, .App{
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
+.iframe {
+  border: 1px solid #eee;
+  width: 70%;
+  height: 100%;
+}
+iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tree-node {
+  text-align: left;
+  padding: 12px;
+  width: 30%;
+  height: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.dom-tree {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 60%
 }
 
-.App-link {
-  color: #09d3ac;
+.edit-form {
+  padding: 12px;
+  text-align: left
 }
